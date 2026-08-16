@@ -5,6 +5,7 @@ import Footer from "@/components/layout/Footer";
 import CartDrawer from "@/components/cart/CartDrawer";
 import SmoothScroll from "@/components/ui/SmoothScroll";
 import ToasterProvider from "@/components/ui/ToasterProvider";
+import DemoBanner from "@/components/ui/DemoBanner";
 
 const anton = Anton({
   subsets: ["latin"],
@@ -48,6 +49,7 @@ export default function RootLayout({ children }) {
         <CartDrawer />
         <main>{children}</main>
         <Footer />
+        <DemoBanner />
       </body>
     </html>
   );
