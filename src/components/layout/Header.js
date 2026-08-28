@@ -22,10 +22,15 @@ export default function Header() {
   const totalItems = useCartStore((s) => s.items.reduce((n, i) => n + i.qty, 0));
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    // A plain "scroll" listener is unreliable here (Lenis drives the page via its
+    // own animation loop rather than native scrolling in every case), and rAF
+    // polling pauses whenever the tab isn't actively compositing. setInterval
+    // keeps running in both situations, and 120ms resolution is imperceptible
+    // for a background swap that only needs to react to a single px threshold.
+    const id = setInterval(() => {
+      setScrolled(window.scrollY > 24);
+    }, 120);
+    return () => clearInterval(id);
   }, []);
 
   useEffect(() => {
