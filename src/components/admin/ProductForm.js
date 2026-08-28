@@ -13,7 +13,7 @@ import {
   uploadProductImage,
   deleteProductImage,
 } from "@/lib/products";
-import { slugify, descriptionFor } from "@/data/catalog-seed";
+import { slugify, descriptionFor } from "@/lib/productText";
 
 const CATEGORIES = ["Sneakers", "Sandals", "Boots"];
 const DEFAULT_SIZES = "40, 41, 42, 43, 44, 45";
@@ -129,7 +129,7 @@ export default function ProductForm({ product }) {
       text: "This cannot be undone.",
       showCancelButton: true,
       confirmButtonText: "Delete",
-      confirmButtonColor: "#e31937",
+      confirmButtonColor: "#4a4a4a",
     });
     if (!confirm.isConfirmed) return;
 

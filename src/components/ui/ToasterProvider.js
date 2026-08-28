@@ -16,7 +16,7 @@ export default function ToasterProvider() {
           borderRadius: "2px",
         },
         success: {
-          iconTheme: { primary: "#e31937", secondary: "#fff" },
+          iconTheme: { primary: "#4a4a4a", secondary: "#fff" },
         },
       }}
     />

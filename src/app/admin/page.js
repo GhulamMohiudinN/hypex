@@ -56,14 +56,14 @@ export default function AdminLoginPage() {
 
       <div className="w-full max-w-sm">
         <div className="flex justify-center mb-8">
-          <Link href="/" className="bg-bg px-4 py-3 inline-block">
-            <Image src="/images/logo.jpg" alt="HypeX" width={130} height={44} className="h-9 w-auto" />
+          <Link href="/" className="inline-block">
+            <Image src="/images/logo.jpg" alt="Sneaker Supply" width={64} height={64} className="h-20 w-20" />
           </Link>
         </div>
 
         <div className="bg-paper p-8">
           <h1 className="font-display uppercase text-2xl mb-1 text-center">Admin Login</h1>
-          <p className="text-ink/50 text-sm text-center mb-8">Sign in to manage HypeX</p>
+          <p className="text-ink/50 text-sm text-center mb-8">Sign in to manage Sneaker Supply</p>
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="relative">
@@ -94,7 +94,7 @@ export default function AdminLoginPage() {
           </form>
         </div>
         <p className="text-center text-white/30 text-xs mt-6">
-          Access restricted to HypeX store administrators
+          Access restricted to Sneaker Supply store administrators
         </p>
       </div>
     </div>

@@ -60,7 +60,7 @@ export default function Hero() {
     return () => ctx.revert();
   }, []);
 
-  const headline = "STEP INTO HYPE";
+  const headline = "STEP UP YOUR SUPPLY";
 
   return (
     <section
@@ -107,7 +107,7 @@ export default function Hero() {
             <span key={word} className="overflow-hidden pb-2">
               <span
                 ref={(el) => (wordsRef.current[i] = el)}
-                className={`inline-block ${word === "HYPE" ? "text-accent" : ""}`}
+                className={`inline-block ${word === "SUPPLY" ? "text-accent" : ""}`}
               >
                 {word}
               </span>
@@ -116,7 +116,7 @@ export default function Hero() {
         </h1>
 
         <p className="hero-sub text-white/70 max-w-md mt-6 text-sm sm:text-base">
-          Genuine grails, hand-picked and inspected. Cash on delivery, anywhere in Pakistan.
+          Authentic sneakers, hand-picked and inspected. Cash on delivery, anywhere in Pakistan.
         </p>
 
         <div className="hero-cta mt-8 flex flex-col sm:flex-row gap-4">

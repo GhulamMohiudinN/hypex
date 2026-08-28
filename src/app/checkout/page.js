@@ -68,7 +68,7 @@ export default function CheckoutPage() {
         title: "Order Placed!",
         html: `Thank you ${form.name}! Your order <b>#${orderId.slice(0, 8).toUpperCase()}</b> has been received.<br/>We'll call you at ${form.phone} to confirm delivery.`,
         confirmButtonText: "Continue Shopping",
-        confirmButtonColor: "#e31937",
+        confirmButtonColor: "#4a4a4a",
       });
 
       router.push("/shop");

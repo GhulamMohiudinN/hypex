@@ -5,9 +5,9 @@ import Image from "next/image";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const CATEGORIES = [
-  { name: "Sneakers", href: "/shop?category=Sneakers", image: "/images/products/p17/1.jpg" },
-  { name: "Sandals", href: "/shop?category=Sandals", image: "/images/products/p3/1.jpg" },
-  { name: "Boots", href: "/shop?category=Boots", image: "/images/products/p10/1.jpg" },
+  { name: "Sneakers", href: "/shop?category=Sneakers", image: "/images/products/s27/1.jpg" },
+  { name: "Sandals", href: "/shop?category=Sandals", image: "/images/products/s44/1.jpg" },
+  { name: "Boots", href: "/shop?category=Boots", image: "/images/products/s21/1.jpg" },
 ];
 
 export default function CategoryShowcase() {

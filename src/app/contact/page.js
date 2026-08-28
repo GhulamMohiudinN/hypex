@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 
 export const metadata = {
   title: "Contact Us",
-  description: "Get in touch with HypeX for order support, sizing help or general questions.",
+  description: "Get in touch with Sneaker Supply for order support, sizing help or general questions.",
 };
 
 export default function ContactPage() {
@@ -44,7 +44,7 @@ export default function ContactPage() {
               <FiMail className="text-accent mt-1 shrink-0" />
               <div>
                 <p className="font-display uppercase text-sm mb-1">Email</p>
-                <p className="text-ink/60 text-sm">hello@hypex.pk</p>
+                <p className="text-ink/60 text-sm">hello@sneakersupply.pk</p>
               </div>
             </div>
           </div>

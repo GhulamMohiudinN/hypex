@@ -37,7 +37,7 @@ export default function AdminProductsPage() {
       text: "This cannot be undone.",
       showCancelButton: true,
       confirmButtonText: "Delete",
-      confirmButtonColor: "#e31937",
+      confirmButtonColor: "#4a4a4a",
     });
     if (!confirm.isConfirmed) return;
 

@@ -22,21 +22,21 @@ const epilogue = Epilogue({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://hypex.pk"),
+  metadataBase: new URL("https://sneakersupply.pk"),
   title: {
-    default: "HypeX | Authentic Sneakers, Pakistan",
-    template: "%s | HypeX",
+    default: "Sneaker Supply | Authentic Sneakers, Pakistan",
+    template: "%s | Sneaker Supply",
   },
   description:
-    "HypeX is Pakistan's destination for authentic pre-loved sneakers — Jordan, Nike, Adidas, New Balance and more. Cash on delivery nationwide.",
-  keywords: ["sneakers pakistan", "jordan pakistan", "nike pakistan", "hypex", "sneaker resale"],
+    "Sneaker Supply is Pakistan's destination for authentic pre-loved sneakers — Jordan, Nike, Adidas, New Balance and more. Cash on delivery nationwide.",
+  keywords: ["sneakers pakistan", "jordan pakistan", "nike pakistan", "sneaker supply", "sneaker resale"],
   icons: {
     icon: "/images/logo.jpg",
   },
 };
 
 export const viewport = {
-  themeColor: "#0b0b0b",
+  themeColor: "#0a0a0a",
 };
 
 export default function RootLayout({ children }) {

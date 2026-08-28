@@ -1,13 +1,13 @@
 {
-  "name": "HypeX Admin",
-  "short_name": "HypeX Admin",
-  "description": "HypeX store management dashboard",
+  "name": "Sneaker Supply Admin",
+  "short_name": "Sneaker Supply Admin",
+  "description": "Sneaker Supply store management dashboard",
   "start_url": "/admin/dashboard",
   "scope": "/admin/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#0b0b0b",
-  "theme_color": "#0b0b0b",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
   "icons": [
     {
       "src": "/images/logo.jpg",

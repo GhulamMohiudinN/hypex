@@ -69,7 +69,7 @@ export const useCartStore = create(
       totalPrice: () => get().items.reduce((sum, i) => sum + i.qty * i.price, 0),
     }),
     {
-      name: "hypex-cart",
+      name: "sneaker-supply-cart",
       partialize: (state) => ({ items: state.items }),
     }
   )

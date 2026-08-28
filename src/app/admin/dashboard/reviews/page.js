@@ -33,7 +33,7 @@ export default function AdminReviewsPage() {
       text: `${review.name}'s review on "${review.productName}" will be removed permanently.`,
       showCancelButton: true,
       confirmButtonText: "Delete",
-      confirmButtonColor: "#e31937",
+      confirmButtonColor: "#4a4a4a",
     });
     if (!confirm.isConfirmed) return;
 

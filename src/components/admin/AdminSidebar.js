@@ -36,9 +36,7 @@ export default function AdminSidebar({ open, onClose }) {
         }`}
       >
         <div className="flex items-center justify-between h-20 px-6 border-b border-white/10">
-          <div className="bg-bg px-2.5 py-1.5">
-            <Image src="/images/logo.jpg" alt="HypeX" width={110} height={36} className="h-7 w-auto" />
-          </div>
+          <Image src="/images/logo.jpg" alt="Sneaker Supply" width={64} height={64} className="h-10 w-10" />
           <button onClick={onClose} className="lg:hidden text-white/60" aria-label="Close menu">
             <FiX size={20} />
           </button>

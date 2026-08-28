@@ -45,12 +45,12 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        solid ? "bg-bg/95 backdrop-blur border-b border-border" : "bg-transparent"
+        solid ? "bg-bg border-b border-border shadow-sm" : "bg-transparent"
       }`}
     >
       <div className="container-x flex items-center justify-between h-20">
         <Link href="/" className="flex items-center gap-2 shrink-0">
-          <Image src="/images/logo.jpg" alt="HypeX" width={130} height={44} priority className="h-9 w-auto" />
+          <Image src="/images/logo.jpg" alt="Sneaker Supply" width={64} height={64} priority className="h-12 w-12" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-10">

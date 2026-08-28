@@ -3,7 +3,7 @@ import ShopClient from "./ShopClient";
 
 export const metadata = {
   title: "Shop All Sneakers",
-  description: "Browse authentic pre-loved sneakers, sandals and boots from HypeX.",
+  description: "Browse authentic pre-loved sneakers, sandals and boots from Sneaker Supply.",
 };
 
 export default function ShopPage() {

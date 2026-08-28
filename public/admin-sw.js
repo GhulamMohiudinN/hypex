@@ -1,4 +1,4 @@
-const CACHE_NAME = "hypex-admin-v1";
+const CACHE_NAME = "sneaker-supply-admin-v1";
 const OFFLINE_URLS = ["/admin", "/admin/dashboard", "/images/logo.jpg"];
 
 self.addEventListener("install", (event) => {

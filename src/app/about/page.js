@@ -4,7 +4,7 @@ import { FiCheckCircle } from "react-icons/fi";
 
 export const metadata = {
   title: "About Us",
-  description: "Learn the HypeX story — Pakistan's home for authentic pre-loved sneakers.",
+  description: "Learn the Sneaker Supply story — Pakistan's home for authentic pre-loved sneakers.",
 };
 
 const VALUES = [
@@ -19,12 +19,12 @@ export default function AboutPage() {
     <div className="pt-32 pb-24">
       <div className="container-x">
         <div className="max-w-2xl mb-16">
-          <p className="section-label">About HypeX</p>
+          <p className="section-label">About Sneaker Supply</p>
           <h1 className="font-display uppercase text-5xl sm:text-6xl leading-[0.95] mb-6">
             From One Closet To A Whole Community
           </h1>
           <p className="text-ink/60 leading-relaxed">
-            HypeX began in Karachi as a small collection of grails traded between friends who
+            Sneaker Supply began as a small collection of grails traded between friends who
             couldn&apos;t find authentic sneakers at fair prices locally. What started as a shared
             spreadsheet is now a curated storefront trusted by sneakerheads across Pakistan.
           </p>
@@ -32,8 +32,8 @@ export default function AboutPage() {
 
         <div className="relative h-[320px] sm:h-[480px] mb-20">
           <Image
-            src="/images/products/p35/1.jpg"
-            alt="HypeX sneaker collection"
+            src="/images/products/s49/1.jpg"
+            alt="Sneaker Supply sneaker collection"
             fill
             sizes="100vw"
             className="object-cover"
@@ -42,14 +42,14 @@ export default function AboutPage() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-24">
           <div>
-            <p className="section-label">Why HypeX</p>
+            <p className="section-label">Why Sneaker Supply</p>
             <h2 className="font-display uppercase text-3xl sm:text-4xl mb-6">
               We Buy Like Collectors, Sell Like Friends
             </h2>
             <p className="text-ink/60 leading-relaxed mb-4">
-              Every pair that comes through HypeX is hand-inspected for authenticity, cleaned, and
-              photographed in true condition — creases, wear, and all. We don&apos;t deal in first
-              copies, and we don&apos;t hide flaws.
+              Every pair that comes through Sneaker Supply is hand-inspected for authenticity,
+              cleaned, and photographed in true condition — creases, wear, and all. We don&apos;t
+              deal in first copies, and we don&apos;t hide flaws.
             </p>
             <p className="text-ink/60 leading-relaxed">
               Whether it&apos;s a Jordan 1, a Dunk, or a Yeezy, you&apos;re getting the real thing at a
